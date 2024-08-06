@@ -53,39 +53,40 @@ export const PROJECTS = [
   {
     title: "Dr Aisha Ghias",
     image: project1,
-    description:
-      "A Website with the Portfolio of Docter Aisha Ghias, Services provided by her, Integerated YouTube Channel with website, blogs and contact page. The website is built using Enfold Theme, Wordpress CMS, Avia Builders, Plugin Integerations.",
-    technologies: ["Youtube Integration", "Wordpress CMS", "Avia Builder", "WP Classic Editor", "Enfold Theme", "Theme Customization"],
+    description: "A website with the portfolio of Dr. Aisha Ghias...",
+    technologies: ["Youtube Integration", "Wordpress CMS"],
+    link: "https://draishaghias.com/"
   },
   {
     title: "Unique Track",
     image: project2,
-    description:
-      "An Website of Vehicle Tracking Company with the services provided by the company, contact page, blogs and user login page. The website is built using Enfold Theme, Wordpress CMS, Avia Builder, Plugin Integerations.",
-    technologies: ["Wordpress CMS", "Avia Builder", "WP Classic Editor", "Enfold Theme", "Theme Customization"],
+    description: "An website of Vehicle Tracking Company...",
+    technologies: ["Wordpress CMS", "Avia Builder"],
+    link: "https://uniquetrack.com.pk/"
   },
   {
     title: "WhatsApp Chatbot",
     image: project3,
-    description:
-      "A WhatsApp Chatbot that provides information about the doctor services and products with appointment booking and live chat option. The chatbot is built using the WhatsApp Web JS library, Node.js, and Express.js.",
-    technologies: ["Node.js", "Express.js", "Git Hub", "WhatsApp Web JS Library", "Chatbot Development", "API Integration", "Live Chat", "Appointment Booking", "Customer Support"],
+    description: "A WhatsApp Chatbot for appointment booking...",
+    technologies: ["Node.js", "Express.js"],
+    link: ""  // Or omit this property if not needed
   },
   {
     title: "Royal Gulf Tents & Tarpaulins",
     image: project4,
-    description:
-      "A website for showcasing their digital presence, with services provided by Royal Gulf Tents",
-    technologies: ["Wordpress CMS", "Avia Builder", "WP Classic Editor", "Enfold Theme", "Theme Customization"],
+    description: "A website for showcasing their digital presence...",
+    technologies: ["Wordpress CMS", "Avia Builder"],
+    link: "https://royalgulftents.com/"
   },
   {
     title: "Portfolio Website",
     image: project5,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Framer Motion", "Node.js"],
-  },
+    description: "A personal portfolio website showcasing projects...",
+    technologies: ["HTML", "CSS", "React"],
+    link: "https://haseebtariq9.github.io/haseeb-portfolio-site/"
+  }
 ];
+
 
 
 export const CONTACT = {

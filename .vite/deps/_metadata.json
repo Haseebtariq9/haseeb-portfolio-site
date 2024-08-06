@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "hash": "55a98a10",
   "configHash": "944b22ef",
   "lockfileHash": "15925511",
@@ -61,4 +62,12 @@
       "file": "chunk-UTEJFLXC.js"
     }
   }
+=======
+  "hash": "d1710de2",
+  "configHash": "944b22ef",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "a598c996",
+  "optimized": {},
+  "chunks": {}
+>>>>>>> Stashed changes
 }
