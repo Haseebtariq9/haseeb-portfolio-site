@@ -1,9 +1,5 @@
 import logo from "../assets/Logo.png";
-import {FaLinkedin } from "react-icons/fa";
-import {FaGithub } from "react-icons/fa";
-import {FaTwitter } from "react-icons/fa";
-import {FaInstagram } from "react-icons/fa";
-import {FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -12,14 +8,23 @@ const Navbar = () => {
         <img className="h-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaTwitter />
-        <FaInstagram />
-        <FaFacebook />
-    </div>
+        <a href="https://www.linkedin.com/in/muhammad-haseeb-tariq-29084a199/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/Haseebtariq9" target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/haseebtariq__/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100073363053040" target="_blank" rel="noopener noreferrer">
+          <FaFacebook />
+        </a>
+        <a href="https://wa.me/+923261430007" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp />
+        </a>
+      </div>
     </nav>
-    
   );
 };
 
