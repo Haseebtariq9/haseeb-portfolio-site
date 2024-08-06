@@ -15,12 +15,12 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       {/* Section for name */}
-      <div className="flex justify-center lg:justify-start">
+      <div className="flex justify-center lg:justify-center">
         <motion.h1
           variants={container(0)}
           initial="hidden"
           animate="visible"
-          className="text-6xl font-thin tracking-tight pt-16 lg:pt-32"
+          className="text-center text-6xl font-thin tracking-tight pt-16 lg:pt-32"
         >
           Muhammad Haseeb Tariq
         </motion.h1>
