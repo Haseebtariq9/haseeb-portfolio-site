@@ -20,7 +20,7 @@ const Hero = () => {
           variants={container(0)}
           initial="hidden"
           animate="visible"
-          className="text-4xl lg:text-6xl font-thin tracking-tight pt-8 lg:pt-16 text-center lg:text-left"
+          className="text-4xl md:text-5xl lg:text-6xl font-thin tracking-tight pt-8 lg:pt-16 text-center lg:text-left"
         >
           Muhammad Haseeb Tariq
         </motion.h1>
@@ -34,7 +34,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-blue-500 bg-clip-text text-3xl lg:text-4xl tracking-tight text-transparent text-center lg:text-left"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-blue-500 bg-clip-text text-2xl md:text-3xl lg:text-4xl tracking-tight text-transparent text-center lg:text-left"
             >
               Software Engineer
             </motion.span>
@@ -42,7 +42,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify text-center lg:text-left"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify text-center lg:text-left text-base md:text-lg lg:text-xl"
               style={{ textAlign: 'justify' }} // Ensures justification
             >
               {HERO_CONTENT}

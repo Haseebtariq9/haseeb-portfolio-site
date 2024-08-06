@@ -5,31 +5,34 @@ const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-20">
         <motion.h1
-        whileInView={{opacity: 1, y: 0}}
-        initial={{opacity: 0, y: -100}}
-        transition={{duration: 0.5}} 
-        className="my-10 text-center text-4xl">Get in Touch</motion.h1>
-        <div 
-        className="text-center tracking-tighter">
+          whileInView={{opacity: 1, y: 0}}
+          initial={{opacity: 0, y: -100}}
+          transition={{duration: 0.5}} 
+          className="my-10 text-center text-4xl md:text-5xl lg:text-6xl">
+          Get in Touch
+        </motion.h1>
+        <div className="text-center tracking-tighter">
             <motion.p
-            whileInView={{opacity: 1, x: 0}}
-            initial={{opacity: 0, x: -100}}
-            transition={{duration: 1}} 
-            className="my-4">{CONTACT.address}</motion.p>
-            <motion.p 
-            whileInView={{opacity: 1, x: 0}}
-            initial={{opacity: 0, x: 100}}
-            transition={{duration: 1}}
-            className="my-4">  
-            <a href={`https://wa.me/${CONTACT.phoneNo.replace("+", "")}`} target="_blank" rel="noopener noreferrer">
-              {CONTACT.phoneNo}
-            </a>
+              whileInView={{opacity: 1, x: 0}}
+              initial={{opacity: 0, x: -100}}
+              transition={{duration: 1}} 
+              className="my-4 text-sm md:text-base lg:text-lg">
+              {CONTACT.address}
             </motion.p>
-            <a href="#" className="border-b">
-            {CONTACT.email}
+            <motion.p 
+              whileInView={{opacity: 1, x: 0}}
+              initial={{opacity: 0, x: 100}}
+              transition={{duration: 1}}
+              className="my-4 text-sm md:text-base lg:text-lg">  
+              <a href={`https://wa.me/${CONTACT.phoneNo.replace("+", "")}`} target="_blank" rel="noopener noreferrer">
+                {CONTACT.phoneNo}
+              </a>
+            </motion.p>
+            <a href="#" className="border-b text-sm md:text-base lg:text-lg">
+              {CONTACT.email}
             </a>
         </div>
-        </div>
+    </div>
   )
 }
 
