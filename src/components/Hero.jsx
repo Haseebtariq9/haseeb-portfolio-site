@@ -43,6 +43,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify text-center lg:text-left"
+              style={{ textAlign: 'justify' }} // Ensures justification
             >
               {HERO_CONTENT}
             </motion.p>
