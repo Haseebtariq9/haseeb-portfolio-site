@@ -15,26 +15,26 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       {/* Section for name */}
-      <div className="flex justify-center lg:justify-center">
+      <div className="flex flex-col items-center lg:items-start">
         <motion.h1
           variants={container(0)}
           initial="hidden"
           animate="visible"
-          className="text-center text-6xl font-thin tracking-tight pt-16 lg:pt-32"
+          className="text-4xl lg:text-6xl font-thin tracking-tight pt-16 lg:pt-32 text-center lg:text-left"
         >
           Muhammad Haseeb Tariq
         </motion.h1>
       </div>
       {/* Section for content and image */}
-      <div className="flex flex-wrap pt-8">
-        <div className="w-full lg:w-1/2 lg:pr-8">
+      <div className="flex flex-col lg:flex-row pt-8">
+        <div className="w-full lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
           {/* Text content with heading */}
           <div className="flex flex-col items-center lg:items-start">
             <motion.span
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-blue-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-blue-500 bg-clip-text text-3xl lg:text-4xl tracking-tight text-transparent text-center lg:text-left"
             >
               Software Engineer
             </motion.span>
@@ -42,7 +42,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify text-center lg:text-left"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -56,6 +56,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.2 }}
             src={profilePic}
             alt="Muhammad Haseeb Tariq"
+            className="w-full h-auto"
           />
         </div>
       </div>
