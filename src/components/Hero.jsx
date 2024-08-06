@@ -14,18 +14,22 @@ const container = (delay) => ({
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+      {/* Section for name */}
+      <div className="flex justify-center lg:justify-start">
+        <motion.h1
+          variants={container(0)}
+          initial="hidden"
+          animate="visible"
+          className="text-6xl font-thin tracking-tight pt-16 lg:pt-32"
+        >
+          Muhammad Haseeb Tariq
+        </motion.h1>
+      </div>
+      {/* Section for content and image */}
+      <div className="flex flex-wrap pt-8">
         <div className="w-full lg:w-1/2 lg:pr-8">
-          {/* Text content with name and heading */}
+          {/* Text content with heading */}
           <div className="flex flex-col items-center lg:items-start">
-            <motion.h1
-              variants={container(0)}
-              initial="hidden"
-              animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16"
-            >
-              Muhammad Haseeb Tariq
-            </motion.h1>
             <motion.span
               variants={container(0.5)}
               initial="hidden"
