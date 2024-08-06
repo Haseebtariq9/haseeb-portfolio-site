@@ -20,13 +20,13 @@ const Hero = () => {
           variants={container(0)}
           initial="hidden"
           animate="visible"
-          className="text-4xl lg:text-6xl font-thin tracking-tight pt-16 lg:pt-32 text-center lg:text-left"
+          className="text-4xl lg:text-6xl font-thin tracking-tight pt-8 lg:pt-16 text-center lg:text-left"
         >
           Muhammad Haseeb Tariq
         </motion.h1>
       </div>
       {/* Section for content and image */}
-      <div className="flex flex-col lg:flex-row pt-8">
+      <div className="flex flex-col lg:flex-row pt-4">
         <div className="w-full lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
           {/* Text content with heading */}
           <div className="flex flex-col items-center lg:items-start">
